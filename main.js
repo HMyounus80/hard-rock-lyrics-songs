@@ -23,7 +23,7 @@ function searchResult(search) {
 
         let result = `<div class="single-result row align-items-center my-3 p-3">
         <div class="col-md-8">
-        
+    
         <h3 class="lyrics-name" id="title">${title}</h3>
             <p class="author lead">Album by <span id="artistName">${artist}</span></p>
         </div>
@@ -33,8 +33,6 @@ function searchResult(search) {
         </div>
     </div>`;
     lyricsShowList.innerHTML += result;
-
-
     }
 }
 
